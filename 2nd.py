@@ -1,6 +1,6 @@
 # Second Largest Number
-nums = list(map(int, input("Enter numbers separated by space: ").split()))
 
+nums = list(map(int, input("Enter numbers separated by space: ").split()))
 unique_nums = list(set(nums))
 unique_nums.sort()
 
